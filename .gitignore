@@ -1,0 +1,19 @@
+/target
+/classes
+/checkouts
+pom.xml
+pom.xml.asc
+*.jar
+*.class
+/.lein-*
+/.nrepl-port
+.hgignore
+.hg/
+config
+.DS_Store
+.m2
+*.rdb
+# Contains keys.
+local-integration-tests.sh
+.m2-cache
+.env
