@@ -1,4 +1,4 @@
-(defproject event-data-evidence-logger "0.1.0"
+(defproject event-data-evidence-logger "0.1.0b2"
   :description "Event Bus Evidence Logger"
   :url "http://eventdata.crossref.org/"
   :license {:name "MIT License"
