@@ -1,4 +1,4 @@
-(defproject event-data-evidence-logger "0.1.0b2"
+(defproject event-data-evidence-logger "0.1.1"
   :description "Event Bus Evidence Logger"
   :url "http://eventdata.crossref.org/"
   :license {:name "MIT License"
@@ -12,6 +12,7 @@
                  [org.slf4j/slf4j-simple "1.7.21"]
                  [org.apache.kafka/kafka-clients "0.10.2.0"]]
   :main ^:skip-aot event-data-evidence-logger.core
+  :jvm-opts ["-Duser.timezone=UTC" "-Xmx2G"]
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}
              :prod {:resource-paths ["config/prod"]}
