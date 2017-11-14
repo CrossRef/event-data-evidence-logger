@@ -1,10 +1,10 @@
-(defproject event-data-evidence-logger "0.1.1"
+(defproject event-data-evidence-logger "0.1.2"
   :description "Event Bus Evidence Logger"
   :url "http://eventdata.crossref.org/"
   :license {:name "MIT License"
             :url "https://opensource.org/licenses/MIT"}
   :dependencies [[org.clojure/clojure "1.8.0"]
-                 [event-data-common "0.1.37"]
+                 [event-data-common "0.1.41"]
                  [crossref-util "0.1.10"]
                  [yogthos/config "0.8"]
                  [org.clojure/tools.logging "0.3.1"]
